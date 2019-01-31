@@ -14,7 +14,7 @@ class BankAccount
     @balance
   end
   
-  def display_balance(@balance) 
+  def display_balance(self.balance) 
     @balance
   end
   
@@ -26,7 +26,7 @@ class BankAccount
     end
   end
   
-  def close_account(@name)
+  def close_account(self.name)
     @status == "closed"
   end
 end
