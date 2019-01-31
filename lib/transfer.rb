@@ -13,6 +13,7 @@ class Transfer
   def valid?
     if @sender.status == 'open' && @receiver.status == 'open'
       if @sender.balance > 0 && receiver.balance > 0
+        binding.pry
         return true 
       end
     end 
