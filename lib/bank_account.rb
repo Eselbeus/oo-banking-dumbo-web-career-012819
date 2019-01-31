@@ -29,7 +29,6 @@ class BankAccount
   end
   
   def close_account
-    @status == "closed"
-    binding.pry
+    @status = "closed"
   end
 end
