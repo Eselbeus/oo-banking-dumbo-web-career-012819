@@ -9,4 +9,10 @@ class Transfer
     @status = "pending"
     @amount = amount
   end
+  
+  def valid?
+    @sender
+    @receiver
+    binding.pry
+  end
 end
