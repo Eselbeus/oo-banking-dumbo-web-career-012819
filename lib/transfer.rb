@@ -11,8 +11,8 @@ class Transfer
   end
   
   def valid?
-    @sender
-    @receiver
-    binding.pry
+    @sender.status
+    @receiver.staus
+    
   end
 end
